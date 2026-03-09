@@ -14,7 +14,7 @@ Published in *IEEE Transactions on Robotics* (**T-RO**), 2026
 <hr />
 <br>
 
-<h3>✨ <font color="#d9534f">Heuristic Trial-and-Error</font> vs. <font color="#2980b9">Task-Gradient Optimization</font>: Who Wins?</h3>
+<h3 align="left">✨ $\textsf{\color{#d9534f}{Heuristic Trial-and-Error}}$ vs. $\textsf{\color{#2980b9}{Task-Gradient Optimization}}$: Who Wins?</h3>
 
 **Are massive, densely-packed sensor arrays truly better? Does designing them manually via trial-and-error have to be so painstakingly time-consuming?** 🤔
 
