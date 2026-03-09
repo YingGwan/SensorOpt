@@ -18,7 +18,7 @@ Published in *IEEE Transactions on Robotics* (**T-RO**), 2026
 
 **Are massive, densely-packed sensor arrays truly better? Does designing them manually via trial-and-error have to be so painstakingly time-consuming?** 🤔
 
-*No! We present a novel simulator-free computational design framework that uses **task gradients** to optimize an initial massive number of random sensors down to a sparse, physics-ready, and highly accurate layout. By encoding strict discrete fabrication rules into **differentiable loss functions**, our method autonomously co-optimizes the sensor layout alongside a shape prediction network via end-to-end gradient descent!* ✨
+* **No!** We present a novel simulator-free computational design framework that uses **task gradients** to optimize an initial massive number of random sensors down to a sparse, physics-ready, and highly accurate layout. By encoding strict discrete fabrication rules into **differentiable loss functions**, our method autonomously co-optimizes the sensor layout alongside a shape prediction network via end-to-end gradient descent!* ✨
 
 <br>
 
@@ -39,7 +39,7 @@ Furthermore, deciding layouts manually using heuristic decision-making involves 
 Our framework concurrently optimizes both the continuous spatial placement and discrete number of flexible sensors alongside neural network parameters for 3D shape prediction. A core novelty of our approach is reformulating inherently discrete fabrication requirements into **differentiable loss functions**. We explicitly incorporate the following practical **manufacturability constraints** into the optimization process:
 - **Overlap-free**: Prevents sensors from crossing, avoiding complex accumulation of material layers which introduces wrinkles and degrades sensing accuracy.
 - **Inter-sensor distance**: Ensures sufficient spacing to avoid local stiffness discontinuities, stress concentration, and material fatigue on curved surfaces.
-- **Length preference**: Controls the maximum and minimum continuous sensor lengths to guarantee signal reliability and fabrication stability.
+- **Length preference**: Controls the total and minimum continuous sensor lengths to guarantee signal reliability and fabrication stability.
 
 By parameterizing freeform shapes via B-spline surfaces and mapping sensors as lines in the $(u, v)$-domain, we successfully unify physical manufacturing constraints and predictive accuracy into a single continuous differentiable space.
 
