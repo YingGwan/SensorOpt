@@ -14,7 +14,7 @@ Published in *IEEE Transactions on Robotics* (**T-RO**), 2026
 <hr />
 <br>
 
-**✨ Heuristic Trial-and-Error vs. Task-Gradient Optimization: Who Wins?**
+**✨ <span style="color:#d9534f;">Heuristic Trial-and-Error</span> vs. <span style="color:#2980b9;">Task-Gradient Optimization</span>: Who Wins?**
 
 **Are massive, densely-packed sensor arrays truly better? Does designing them manually via trial-and-error have to be so painstakingly time-consuming?** 🤔
 
