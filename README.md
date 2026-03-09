@@ -11,8 +11,10 @@ Published in *IEEE Transactions on Robotics* (**T-RO**), 2026
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://github.com/YingGwan/SensorOpt/blob/main/TROSensorCoOptm_FinalVer.pdf) &nbsp;&nbsp; [![Code](https://img.shields.io/badge/Code-Github-black)](https://github.com/YingGwan/SensorOpt/tree/main) &nbsp;&nbsp; [![Video](https://img.shields.io/badge/Video-YouTube-red)](https://www.youtube.com/watch?v=dKYubu_igog)
 
 <br>
+<hr />
+<br>
 
-**✨ Task-Gradient Driven Sensor Optimization**
+**✨ Heuristic Trial-and-Error vs. Task-Gradient Optimization: Who Wins?**
 
 **Are massive, densely-packed sensor arrays truly better? Does designing them manually via trial-and-error have to be so painstakingly time-consuming?** 🤔
 
@@ -20,7 +22,9 @@ Published in *IEEE Transactions on Robotics* (**T-RO**), 2026
 
 <br>
 
-[![Watch the video](https://img.youtube.com/vi/dKYubu_igog/0.jpg)](https://youtu.be/dKYubu_igog)
+<a href="https://youtu.be/dKYubu_igog" target="_blank">
+  <img src="https://img.youtube.com/vi/dKYubu_igog/maxresdefault.jpg" alt="Watch the video" width="85%" />
+</a>
 
 <br>
 
