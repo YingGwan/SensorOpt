@@ -8,13 +8,21 @@
 
 Published in *IEEE Transactions on Robotics* (**T-RO**), 2026
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://github.com/YingGwan/SensorOpt/blob/main/TROSensorCoOptm_FinalVer.pdf) &nbsp;&nbsp; [![Code](https://img.shields.io/badge/Code-Github-black)](https://github.com/YingGwan/SensorOpt/tree/main)
-<a href="https://www.youtube.com/watch?v=dKYubu_igog" target="_blank"><img src="https://img.youtube.com/vi/dKYubu_igog/maxresdefault.jpg" alt="Watch the video" width="600" /></a>
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://github.com/YingGwan/SensorOpt/blob/main/TROSensorCoOptm_FinalVer.pdf) &nbsp;&nbsp; [![Code](https://img.shields.io/badge/Code-Github-black)](https://github.com/YingGwan/SensorOpt/tree/main) &nbsp;&nbsp; [![Video](https://img.shields.io/badge/Video-YouTube-red)](https://www.youtube.com/watch?v=dKYubu_igog)
+
 <br>
+
+**✨ Task-Gradient Driven Sensor Optimization**
 
 **Are massive, densely-packed sensor arrays truly better? Does designing them manually via trial-and-error have to be so painstakingly time-consuming?** 🤔
 
 *No! We present a novel simulator-free computational design framework that uses **task gradients** to optimize an initial massive number of random sensors down to a sparse, physics-ready, and highly accurate layout. By encoding strict discrete fabrication rules into **differentiable loss functions**, our method autonomously co-optimizes the sensor layout alongside a shape prediction network via end-to-end gradient descent!* ✨
+
+<br>
+
+[![Watch the video](https://img.youtube.com/vi/dKYubu_igog/0.jpg)](https://youtu.be/dKYubu_igog)
+
+<br>
 
 </div>
 
