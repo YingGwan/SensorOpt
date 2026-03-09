@@ -9,9 +9,7 @@
 Published in *IEEE Transactions on Robotics* (**T-RO**), 2026
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://github.com/YingGwan/SensorOpt/blob/main/TROSensorCoOptm_FinalVer.pdf) &nbsp;&nbsp; [![Code](https://img.shields.io/badge/Code-Github-black)](https://github.com/YingGwan/SensorOpt/tree/main)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dKYubu_igog?si=i12t7E6Y86y4hD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<a href="https://www.youtube.com/watch?v=dKYubu_igog" target="_blank"><img src="https://img.youtube.com/vi/dKYubu_igog/maxresdefault.jpg" alt="Watch the video" width="600" /></a>
 <br>
 
 **Are massive, densely-packed sensor arrays truly better? Does designing them manually via trial-and-error have to be so painstakingly time-consuming?** 🤔
