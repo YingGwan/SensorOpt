@@ -8,22 +8,30 @@
 
 Published in *IEEE Transactions on Robotics* (**T-RO**), 2026
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://github.com/YingGwan/SensorOpt/blob/main/TROSensorCoOptm_FinalVer.pdf)[![Code](https://img.shields.io/badge/Code-Github-black)](https://github.com/YingGwan/SensorOpt/tree/main)[![Video](https://img.shields.io/badge/Video-YouTube-red)](https://www.youtube.com/watch?v=dKYubu_igog)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://github.com/YingGwan/SensorOpt/blob/main/TROSensorCoOptm_FinalVer.pdf) &nbsp;&nbsp; [![Code](https://img.shields.io/badge/Code-Github-black)](https://github.com/YingGwan/SensorOpt/tree/main) &nbsp;&nbsp; [![Video](https://img.shields.io/badge/Video-YouTube-red)](https://www.youtube.com/watch?v=dKYubu_igog)
 
+<br>
 
+**Are massive, densely-packed sensor arrays truly better? Does designing them manually via trial-and-error have to be so painstakingly time-consuming?** 🤔
+
+*No! We present a novel simulator-free computational design framework that uses **task gradients** to optimize an initial massive number of random sensors down to a sparse, physics-ready, and highly accurate layout. By encoding strict discrete fabrication rules into **differentiable loss functions**, our method autonomously co-optimizes the sensor layout alongside a shape prediction network via end-to-end gradient descent!* ✨
+
+</div>
+
+<hr />
 
 ## 💡 Motivation
-Flexible sensors are increasingly employed in soft robotics and wearable devices to provide proprioception of freeform deformations. To reconstruct large deformations from sensor signals accurately, the **sensor layout**—specifically the number, shape, and placement of sensors—plays a critical role. However, prior designs typically rely on heuristics, trial-and-error, or expert intuition, leading to suboptimal prediction accuracy and potential manufacturing failures. 
+Flexible sensors are increasingly employed in soft robotics and wearable devices to provide proprioception of freeform deformations. To reconstruct large deformations from signals accurately, the **sensor layout**—specifically the number, shape, and placement of sensors—plays a critical role. **More sensors do not equate to better performance**, as redundant sensors needlessly increase fabrication complexity and material interference without actually improving accuracy.
 
-This work introduces a **model-free, data-driven computational pipeline** that jointly **optimizes the sensor layout (number, length, and placement) **and the **deformation prediction network**. Unlike model-based approaches, our method relies solely on datasets of deformed shapes without requiring any physical simulation models, making it broadly applicable to diverse robotic sensing tasks!
+Furthermore, deciding layouts manually using heuristic decision-making involves immense **trial-and-error**. This process is notoriously **time-consuming** and frequently leads to suboptimal prediction accuracy or manufacturing failures. To overcome this, our work introduces a **model-free, data-driven framework** that leverages task-specific gradients to prune and optimize an initial random distribution of sensors. It completely eliminates the need for complex physical simulation models, making it broadly applicable to diverse robotic sensing tasks!
 
 ## ⚙️ Method
-Our framework co-optimizes the continuous spatial placement and discrete number of flexible length-measurement sensors alongside neural network parameters for shape prediction. We explicitly incorporate practical **manufacturability constraints** into the optimization process:
+Our framework concurrently optimizes both the continuous spatial placement and discrete number of flexible sensors alongside neural network parameters for 3D shape prediction. A core novelty of our approach is reformulating inherently discrete fabrication requirements into **differentiable loss functions**. We explicitly incorporate the following practical **manufacturability constraints** into the optimization process:
 - **Overlap-free**: Prevents sensors from crossing, avoiding complex accumulation of material layers which introduces wrinkles and degrades sensing accuracy.
 - **Inter-sensor distance**: Ensures sufficient spacing to avoid local stiffness discontinuities, stress concentration, and material fatigue on curved surfaces.
 - **Length preference**: Controls the maximum and minimum continuous sensor lengths to guarantee signal reliability and fabrication stability.
 
-By reformulating these inherently discrete fabrication requirements into **differentiable loss functions**, our pipeline can perform end-to-end gradient-based optimization using standard deep learning frameworks. We parameterize freeform shapes using B-spline surfaces and sensors as lines in the $(u, v)$-domain, unifying physical constraints and predictive accuracy into a single continuous differentiable space.
+By parameterizing freeform shapes via B-spline surfaces and mapping sensors as lines in the $(u, v)$-domain, we successfully unify physical manufacturing constraints and predictive accuracy into a single continuous differentiable space.
 
 ## 🚀 Results & Applications
 We validated the effectiveness and generality of our approach on multiple physical prototypes:
