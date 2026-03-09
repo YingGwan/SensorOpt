@@ -30,8 +30,6 @@ Published in *IEEE Transactions on Robotics* (**T-RO**), 2026
 
 </div>
 
-<hr />
-
 ## 💡 Motivation
 Flexible sensors are increasingly employed in soft robotics and wearable devices to provide proprioception of freeform deformations. To reconstruct large deformations from signals accurately, the **sensor layout**—specifically the number, shape, and placement of sensors—plays a critical role. **More sensors do not equate to better performance**, as redundant sensors needlessly increase fabrication complexity and material interference without actually improving accuracy.
 
