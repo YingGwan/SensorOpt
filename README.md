@@ -11,7 +11,7 @@ Published in *IEEE Transactions on Robotics* (**T-RO**), 2026
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://github.com/YingGwan/SensorOpt/blob/main/TROSensorCoOptm_FinalVer.pdf) &nbsp;&nbsp; [![Code](https://img.shields.io/badge/Code-Github-black)](https://github.com/YingGwan/SensorOpt/tree/main) &nbsp;&nbsp; [![Video](https://img.shields.io/badge/Video-YouTube-red)](https://www.youtube.com/watch?v=dKYubu_igog)
 
 <br>
-<hr />
+<div style="border-top: 1px solid #d0d7de; width: 100%;"></div>
 <br>
 
 <h3 align="left">✨ $\textsf{\color{#d9534f}{Heuristic Trial-and-Error}}$ vs. $\textsf{\color{#2980b9}{Task-Gradient Optimization}}$: Who Wins?</h3>
